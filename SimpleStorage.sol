@@ -53,6 +53,6 @@ contract SimpleStorage {
     }
 
     function retrieve() public view returns (uint256) {
-        return posts[0].timestamp;
+        return favouriteNumber;
     }
 }
